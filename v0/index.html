@@ -9,30 +9,20 @@
 </head>
 <body>
     <header> <p>LISTAS DE TAREAS DE WALTER</p> </header>
-    <form action="../../form.php" method="post">
-    <label><input type="text" name="texto">
-    <input type="button" name="boton">
-    </label>
+    <form action="">
 
-    <div>
-        <p><label ><input type="checkbox">Task N <input type="reset" value="borrar"></label></p>
-    </div>
-    <div>
-        <p><label ><input type="checkbox">Task N-1 <input type="reset" value="borrar"></label></p>
-    </div>
-    <div>
-        <p><label ><input type="checkbox">Completed Task N-2  <input type="reset" value="borrar"></label></p>
-    </div>
-    <div>
-        <p><label ><input type="checkbox">Task K <input type="reset" value="borrar"></label></p>
-    </div>
-    <div>
-        <p><label ><input type="checkbox">Task 2 <input type="reset" value="borrar"></label></p>
-    </div>
-    <div>
-        <p><label ><input type="checkbox">Completed Task 1 <input type="reset" value="borrar"></label></p>
-    </div>
+    <input id="nuevastareas" type="text" name="tarea">
+    <p><input id="botonag" type="button" > agregar</p>
+    
 </form>
+<ol id="lista">
+    <li>
+
+<p><input type="checkbox"> task 1 <button onclick = "eliminar">eliminar</button></p>
+   
+   </li>
+</ol>
+<script src="main.js"></script>
 </body>
 
 </html>
