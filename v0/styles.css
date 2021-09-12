@@ -1,7 +1,12 @@
-form{
-    text-align: center;
-
+#lista {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
 }
-header{
-    text-align: center;
+
+#lista > li {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
