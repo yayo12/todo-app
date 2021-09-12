@@ -8,20 +8,24 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header> <p>LISTAS DE TAREAS DE WALTER</p> </header>
-    <form action="">
-
-    <input id="nuevastareas" type="text" name="tarea">
-    <p><input id="botonag" type="button" > agregar</p>
+    <header> <h1>LISTAS DE TAREAS DE WALTER</h1> </header>
     
-</form>
+        <form action="">
+
+        <input id="nuevastareas" type="text" name="tarea" placeholder="Ingrese una Tarea">
+        <button id="botonag">agregar</button>
+        </form>
 <ol id="lista">
     <li>
+    
+            <input type="checkbox">
+            <p>Tarea de ejemplo</p>
+            <button onclick="eliminar(this)">Eliminar</button>
+        
 
-<p><input type="checkbox"> task 1 <button onclick = "eliminar">eliminar</button></p>
-   
-   </li>
+    </li>
 </ol>
+
 <script src="main.js"></script>
 </body>
 
